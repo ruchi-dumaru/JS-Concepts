@@ -51,6 +51,18 @@
 - **React Js**
 - **Nextjs** 
 
+## Comments
+```js
+//  console.info("info")
+// console.error("err")
+// console.warn("warn")
+// console.table("table")
+// console.group("Group Start")
+// console.log("I am in group")
+// console.groupEnd("Group End")
+// console.timeStamp("Start time");
+// console.timeStamp("End time")
 
 
+```
 
