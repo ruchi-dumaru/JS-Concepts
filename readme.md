@@ -183,3 +183,5 @@
 
 # Git tracking management
 - Jira,Trello,Frabicator,Red panda,clickup,Aasana
+
+# validation/Registeration/Activation/login/Access

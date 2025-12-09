@@ -23,17 +23,17 @@
 
 let day="Sunday";
 
-// if (day==="sunday"|| day==="saturday"){
-//   console.log("holiday")
-// }
-// else{
-//  if  (day==="friday"){
-//     console.log("weekend")
-//   }
-//   else{
-//     console.log("weeday")
-//   }
-// }
+if (day==="sunday"|| day==="saturday"){
+  console.log("holiday")
+}
+else{
+ if  (day==="friday"){
+    console.log("weekend")
+  }
+  else{
+    console.log("weeday")
+  }
+}
 
 // switch(day){
 //   case "Sunday":
