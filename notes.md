@@ -10,100 +10,101 @@ The new object is returned:After the con structor function has been called, if i
 
 */
 
-/*
-data-types
 
-(global,blocked,functional)
+# Data-types
+ - (global,blocked,functional)
+
+ ```
 var =10;
 {
   let b=12;
 }
+ ```
 
+```
 function abc(){
   if(true){
     var c=20;
   }
 }
+```
 
 
 ### redeclaration and reassignment
 
 var
-  -es5 
-  -function scoped
+  - es5 
+  - function scoped
   - we can access variable anywhere in function
-  -can redeclare same variable and error is not occured
-  -reassignment is allowed
-  -window ma add hunxa
+  - can redeclare same variable and error is not occured
+  - reassignment is allowed
+  - window ma add hunxa
 
 
 let
-  -es6
-  -blocked scoped
-  -cannot redeclared,cause error
-  -reassignment is allowed
+  - es6
+  - blocked scoped
+  - cannot redeclared,cause error
+  - reassignment is allowed
 
-
-*/
 
 
 ### Temproal dead zone:(let,const ma hunxa)
 
-the specific area where js know that the variable exist but can't give it's value
-example:
+- The specific area where js know that the variable exist but can't give it's value
+- Example:
 
-console.log(a);
-//reference error: a is not defined
+- console.log(a);
+  - reference error: a is not defined
 
-console.log(b)
-let b=10; //cannot excess b before initialization / no error occured
+- console.log(b)
+- let b=10; //cannot excess b before initialization / no error occured
 
 But in case of var:(hoisting is occured)
-console.log(b)
-var b=10; // undefined...
+- console.log(b)
+- var b=10; // undefined...
 
 
 ### HOISTING
-  -JS divide the variable into two parts:declaration part moves at the top and initialization remains down
-  -It means variable is created in memory before code runs
+- JS divide the variable into two parts:declaration part moves at the top and initialization remains down
+- It means variable is created in memory before code runs
 
-i.e var a=undefined
-console.log(a)
+  - i.e var a=undefined
+  - console.log(a)
 
-var a=10--->this will get divided into:
-var a=undefined--> move to top 
-a=10
-
-
-Var
-  -Var hoisted huncha
-  -Var accessible huncha anywhere in its function scope
-  -Var variable initialize huncha undefined value sanga hoisting ko time ma
-  -Var variable can be accessed before its declaration
+  - var a=10--->this will get divided into:
+  - var a=undefined--> move to top 
+  - a=10
 
 
-Let
+# Var
+ - Var hoisted huncha
+ - Var accessible huncha anywhere in its function scope
+ - Var variable initialize huncha undefined value sanga hoisting ko time ma
+ - Var variable can be accessed before its declaration
 
-Let hoisted huncha
-Let variable accessible hudaina before its declaration
-Let variable initialize hudaina hoisting ko time ma
-JavaScript let variable lai temporary dead zone ma rakcha
-JavaScript lai thaha cha variable exist garxa but it cannot give value of variable until initialization of variable code line run itself
+
+# Let
+ - Let hoisted huncha
+ - Let variable accessible hudaina before its declaration
+ - Let variable initialize hudaina hoisting ko time ma
+ - JavaScript let variable lai temporary dead zone ma rakcha
+ - JavaScript lai thaha cha variable exist garxa but it cannot give value of variable    until  initialization of variable code line run itself
 
 
 const
-  -we can update the value in const but we cannot reassign value
+  - we can update the value in const but we cannot reassign value
 
-////obj.freeze
+obj.freeze
 
 
 ### Datatypes
-//primitives-> those values that give real copy when they are copied
-(string,boolean,number,null,undefined,sy,bol,bigint)
+- primitives-> those values that give real copy when they are copied
+ - (string,boolean,number,null,undefined,sy,bol,bigint)
 
-//reference-> no real copy is given while copying
-(array,objects,functions)
-[],{},()
+- reference-> no real copy is given while copying
+ - (array,objects,functions)
+  - [],{},()
 
 
 
