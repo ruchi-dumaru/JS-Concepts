@@ -199,3 +199,69 @@ console.log(reverseJson[2])
 
 
 //for js:json is native data structure for other we have to parse
+
+
+// new sessions
+
+
+// var-es5
+// let,const-es6
+
+// var a;//declare 
+// var a=12;//initialize
+
+// var a=10;
+// console.log(a)
+
+// function ab(){
+//  if(true){
+//   var a=12;
+//  }
+//  var a =120;
+//  console.log(a) //120
+// }
+// ab()
+// // we are excessing var from anywhere in function
+
+// var a=10;
+// a=20;//reassign
+
+// var a=30//redeclare
+
+// console.log(a)
+
+// var a=10;
+
+// console.log(b)
+// let b=20;
+
+// console.log(c)
+// const c=30;
+
+
+// if(true){
+//   var a=10;
+//   let b=20;
+// }
+
+//console.log(a);//10 --> function scope so ignore block so var behave as global scoope here..
+
+// console.log(b);//err--> let is accessible inside block only so gives an error
+
+
+// const person={name:"kashis"}
+// // person.name="gupta"// allowes
+// person={}//type error
+
+// console.log(person)
+
+// let a=10;
+// let b=a;
+
+// a=a+10;
+// console.log(a);//20
+// console.log(b)//10
+
+
+
+
