@@ -26,22 +26,22 @@ function abc(){
 }
 
 
-// redeclaration and reassignment
+### redeclaration and reassignment
 
 var
--es5 
--function scoped
- - we can access variable anywhere in function
--can redeclare same variable and error is not occured
--reassignment is allowed
--window ma add hunxa
+  -es5 
+  -function scoped
+  - we can access variable anywhere in function
+  -can redeclare same variable and error is not occured
+  -reassignment is allowed
+  -window ma add hunxa
 
 
 let
--es6
--blocked scoped
--cannot redeclared,cause error
--reassignment is allowed
+  -es6
+  -blocked scoped
+  -cannot redeclared,cause error
+  -reassignment is allowed
 
 
 */
@@ -64,8 +64,8 @@ var b=10; // undefined...
 
 
 ### HOISTING
-JS divide the variable into two parts:declaration part moves at the top and initialization remains down
-//It means variable is created in memory before code runs
+  -JS divide the variable into two parts:declaration part moves at the top and initialization remains down
+  -It means variable is created in memory before code runs
 
 i.e var a=undefined
 console.log(a)
@@ -75,17 +75,24 @@ var a=undefined--> move to top
 a=10
 
 
-var                                                              let
--hoisted                                                    -hoisted
--accessible                                                 -not accessible
--initialized variable with undefined at time of hoisting    - not initialized
--can access variable before declaration                     -cannot access variable before declaration 
-                                                            -JS put variable in TDZ and JS know that variable exist but cannot give value of variable until the initialization code of variable itself run.
+Var
+  -Var hoisted huncha
+  -Var accessible huncha anywhere in its function scope
+  -Var variable initialize huncha undefined value sanga hoisting ko time ma
+  -Var variable can be accessed before its declaration
 
 
-// const 
+Let
 
-we can update the value in const but we cannot reassign value
+Let hoisted huncha
+Let variable accessible hudaina before its declaration
+Let variable initialize hudaina hoisting ko time ma
+JavaScript let variable lai temporary dead zone ma rakcha
+JavaScript lai thaha cha variable exist garxa but it cannot give value of variable until initialization of variable code line run itself
+
+
+const
+  -we can update the value in const but we cannot reassign value
 
 ////obj.freeze
 
