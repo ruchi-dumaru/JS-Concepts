@@ -98,7 +98,7 @@
 
 - for mac
  - cat ~/.ssh/id_ed519.pub
- - enter then copy the content-->ssh-ed25519 AAA
+ - enter then copy the content-->ssh-ed519 AAA
  - go to github profile and settings and then go to SSH and GpG keys
  - new SSH key click
  - paste the copied content in key box
