@@ -88,16 +88,16 @@
 
 # SSH Setup
 - ssh-keygen enter
-- id_ed25519 (file)
+- id_ed519 (file)
 - enter password:enter
 - re-enter:enter
-- it will create two file i.e id_ed25519 and id_ed25519.pub
+- it will create two file i.e id_ed519 and id_ed519.pub
 - open that folder (folder c:drive)
 - user(folder) .ssh-->c:/Users/Profile/.ssh/
 - two file(type-file and type-microsoft publisher-->right click ,open    with, more apps [vs-code])
 
 - for mac
- - cat ~/.ssh/id_ed25519.pub
+ - cat ~/.ssh/id_ed519.pub
  - enter then copy the content-->ssh-ed25519 AAA
  - go to github profile and settings and then go to SSH and GpG keys
  - new SSH key click
@@ -121,7 +121,7 @@
 - Please tell me whou are:
 - run :
   - git config --global user.name "Ruchi Dumaru"
-  - git config --global user.email "ruchidumaru.dev@gmail.com"
+  - git config --global user.email "ruchi@gmail.com"
   - git commit -m "Initial setup"
 
 
